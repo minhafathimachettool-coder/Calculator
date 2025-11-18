@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #FFFF00; /* Changed to yellow */
     margin: 0;
 }
 
@@ -43,12 +43,12 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #f0f0f0;
+    background-color: #FFFF99; /* Changed to lighter yellow */
 }
 
 .buttons .equal {
     grid-row: span 2;
-    background-color: #f0ad4e;
+    background-color: #CCCC00; /* Changed to darker yellow */
     color: white;
 }
 
