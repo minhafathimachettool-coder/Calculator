@@ -11,7 +11,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px; /* Increased width for scientific calculator */
 }
 
 .display {
@@ -31,7 +31,7 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr); /* 5 columns for scientific layout */
 }
 
 .buttons button {
