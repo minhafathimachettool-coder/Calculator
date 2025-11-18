@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,18 +12,26 @@
             <input type="text" id="result" disabled>
         </div>
         <div class="buttons">
+            <button onclick="appendCharacter('(')">(</button>
+            <button onclick="appendCharacter(')')">)</button>
+            <button onclick="scientific('sin')">sin</button>
+            <button onclick="scientific('cos')">cos</button>
+            <button onclick="scientific('tan')">tan</button>
             <button onclick="clearDisplay()">C</button>
             <button onclick="deleteLast()">DEL</button>
             <button onclick="appendCharacter('/')">/</button>
             <button onclick="appendCharacter('*')">*</button>
+            <button onclick="scientific('sqrt')">√</button>
             <button onclick="appendCharacter('7')">7</button>
             <button onclick="appendCharacter('8')">8</button>
             <button onclick="appendCharacter('9')">9</button>
             <button onclick="appendCharacter('-')">-</button>
+            <button onclick="scientific('log')">log</button>
             <button onclick="appendCharacter('4')">4</button>
             <button onclick="appendCharacter('5')">5</button>
             <button onclick="appendCharacter('6')">6</button>
             <button onclick="appendCharacter('+')">+</button>
+            <button onclick="scientific('pow')">x^y</button>
             <button onclick="appendCharacter('1')">1</button>
             <button onclick="appendCharacter('2')">2</button>
             <button onclick="appendCharacter('3')">3</button>
